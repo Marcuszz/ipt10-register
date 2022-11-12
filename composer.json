@@ -1,0 +1,17 @@
+{
+    "name": "marcus/calaguas",
+    "autoload": {
+        "psr-4": {
+            "Marcus\\Calaguas\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "marcuszz",
+            "email": "marcuzcalaguas@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    }
+}
