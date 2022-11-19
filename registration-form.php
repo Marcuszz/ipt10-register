@@ -81,11 +81,17 @@ a {
     <label for="email;"><b>Email</b></label>
     <input type="text" placeholder="Enter Email" name="email" id="email" required>
 
-    <label for="psw"><b>Enter Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-    
+    <div class="d-flex flex-row align-items-center mb-4">
+                    <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
+                    <div class="form-outline flex-fill mb-0">
+                       <label class="form-label" for="form3Example4c">Password</label>
+                      <input type="password" id="form3Example4c" class="form-control" name="password" />
+                     
+                    </div>
+                  </div>
+      
      <label for="psw-con"><b>Confirm Password</b></label>
-    <input type="password" placeholder="Confirm Password" name="psw-con" id="psw-con" required>
+    <input type="password" placeholder="Confirm Password" name="password-con" id="password-con" required>
     <hr>
 
     <button type="submit" class="registerbtn">Register</button>

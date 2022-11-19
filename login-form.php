@@ -70,17 +70,15 @@ span.psw {
 
 <h2>Login Form</h2>
 
-<form method="POST" action="/IPT10-LOGIN/login.php">
+<form method="POST" action="login.php">
 
   <div class="container">
     <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
+    <input type="text" placeholder="Enter Username" name="identifier" required>
 
     <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+    <input type="password" placeholder="Enter Password" name="password" required>
         
-     <label for="psw-con"><b>Confirm Password</b></label>
-    <input type="password" placeholder="Confirm Password" name="psw-con" required>
     
     <button type="submit">Login</button>
  

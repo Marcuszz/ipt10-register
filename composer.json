@@ -1,8 +1,8 @@
 {
-    "name": "marcus/calaguas",
+    "name": "sample/sample",
     "autoload": {
         "psr-4": {
-            "Marcus\\Calaguas\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [
